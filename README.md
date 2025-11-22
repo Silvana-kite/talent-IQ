@@ -29,7 +29,7 @@
 ### Backend (`/backend`)
 
 ```bash
-PORT=3000
+PORT=5000
 NODE_ENV=development
 
 DB_URL=your_mongodb_connection_url
@@ -51,7 +51,7 @@ CLIENT_URL=http://localhost:5173
 ```bash
 VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 
-VITE_API_URL=http://localhost:3000/api
+VITE_API_URL=http://localhost:5000/api
 
 VITE_STREAM_API_KEY=your_stream_api_key
 ```
